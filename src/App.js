@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Branding from "./components/categories/branding/Branding";
+import BrandingProducts from "./components/categories/branding/BrandingProducts";
+import Electrical from "./components/categories/electricals/Electrical";
+import ElectricalProducts from "./components/categories/electricals/ElectricalProducts";
+import Home from "./components/Home";
+import Login from "./components/users/Login";
+import Register from "./components/users/Register";
+import { Navbar } from "flowbite-react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="text-blue-600">
+      <Navbar/>
+      <Router>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/branding" element={<Branding />} />
+          <Route path="/bproducts" element={<BrandingProducts />} />
+          <Route path="/electrical" element={<Electrical />} />
+          <Route path="/eproducts" element={<ElectricalProducts />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
