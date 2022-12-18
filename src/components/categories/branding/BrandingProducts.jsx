@@ -1,7 +1,9 @@
+import Product from "../Product";
+
 function BrandingProducts(){
     return(
         <>
-        <h1>Branding products</h1>
+        <Product/>
         </>
     )
 }

@@ -36,18 +36,17 @@ function Navbar() {
 
                   <li>
                   <input
-                  class="w-full rounded-full border-gray-200 bg-gray-100 p-4 pr-32 text-sm font-medium"
+                  class="w-full rounded-full border-gray-200 bg-gray-100 p-2 pr-32 text-sm font-medium"
                   id="email"
                   type="text"
                   placeholder="search"
                 />
-
+{/* 
                 <button
-                  class="absolute top-1/2 right-1 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+                  class="absolute top-1/2 right-1 -translate-y-1/2 rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-blue-700"
                   type="button"
                 >
-                  Search
-                </button>
+                </button> */}
                   </li>
                   <li>
                     <a
