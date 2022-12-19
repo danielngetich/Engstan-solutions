@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <footer aria-label="Site Footer" class="bg-white">
+      <footer aria-label="Site Footer" class="bg-blue-700">
         <div class="mx-auto max-w-screen-xl px-4 pt-16 pb-8 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-md">
             <strong class="block text-center text-xl font-medium text-gray-900 sm:text-3xl">

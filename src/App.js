@@ -7,11 +7,11 @@ import ElectricalProducts from "./components/categories/electricals/ElectricalPr
 import Home from "./components/Home";
 import Login from "./components/users/Login";
 import Register from "./components/users/Register";
-import { Navbar } from "flowbite-react";
+import { Footer, Navbar } from "flowbite-react";
 
 function App() {
   return (
-    <div class="text-blue-600">
+    <div className="bg-green-500">
       <Navbar/>
       <Router>
         <Routes>
@@ -24,6 +24,7 @@ function App() {
           <Route path="/register" element={<Register/>} />
         </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }

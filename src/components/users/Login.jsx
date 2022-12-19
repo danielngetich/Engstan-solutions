@@ -14,7 +14,7 @@ function Login() {
           </p>
 
           <form action="" class="mt-6 mb-0 space-y-4 rounded-lg p-8 shadow-2xl">
-            <p class="text-lg font-medium">Sign in to your account</p>
+            <p class="text-lg font-medium">Login in to your account</p>
 
             <div>
               <label for="email" class="text-sm font-medium">
@@ -90,7 +90,7 @@ function Login() {
               type="submit"
               class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
             >
-              Sign in
+              login
             </button>
 
             <p class="text-center text-sm text-gray-500">

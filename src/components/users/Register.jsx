@@ -29,7 +29,7 @@ function Register() {
               </a>
 
               <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-                Welcome to Squid 🦑
+                Welcome to Engstan solutions
               </h2>
 
               <p class="mt-4 leading-relaxed text-white/90">
@@ -64,7 +64,7 @@ function Register() {
                 </a>
 
                 <h1 class="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-                  Welcome to Squid 🦑
+                Welcome to Engstan solutions
                 </h1>
 
                 <p class="mt-4 leading-relaxed text-gray-500">
@@ -172,7 +172,7 @@ function Register() {
 
                 <div class="col-span-6">
                   <p class="text-sm text-gray-500">
-                    By creating an account, you agree to our
+                    By creating an account, you agree to our 
                     <a href="#" class="text-gray-700 underline">
                       terms and conditions
                     </a>

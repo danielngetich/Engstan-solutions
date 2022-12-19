@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <header aria-label="Site Header" class="bg-white">
+      <header aria-label="Site Header" class="bg-blue-500">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
             <div class="md:flex md:items-center md:gap-12">
